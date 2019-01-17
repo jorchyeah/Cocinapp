@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		046D8F2321EEB5C30018D1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D8F2221EEB5C30018D1C2 /* AppDelegate.swift */; };
-		046D8F2521EEB5C30018D1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D8F2421EEB5C30018D1C2 /* ViewController.swift */; };
 		046D8F2821EEB5C30018D1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D8F2621EEB5C30018D1C2 /* Main.storyboard */; };
 		046D8F2A21EEB5C30018D1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D8F2921EEB5C30018D1C2 /* Assets.xcassets */; };
 		046D8F2D21EEB5C30018D1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D8F2B21EEB5C30018D1C2 /* LaunchScreen.storyboard */; };
+		0471204221F01C3400C5E977 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471204121F01C3400C5E977 /* WelcomeViewController.swift */; };
+		0498CE9921EEF386003E6594 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CE9821EEF386003E6594 /* Receta.swift */; };
+		04A2D2E921EFF5AE00A31971 /* BusquedaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2D2E821EFF5AE00A31971 /* BusquedaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046D8F1F21EEB5C30018D1C2 /* Cocinapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocinapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046D8F2221EEB5C30018D1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		046D8F2421EEB5C30018D1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		046D8F2721EEB5C30018D1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046D8F2921EEB5C30018D1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046D8F2C21EEB5C30018D1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046D8F2E21EEB5C30018D1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0471204121F01C3400C5E977 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0498CE9821EEF386003E6594 /* Receta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		04A2D2E821EFF5AE00A31971 /* BusquedaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusquedaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		046D8F2121EEB5C30018D1C2 /* Cocinapp */ = {
 			isa = PBXGroup;
 			children = (
+				04A2D2E821EFF5AE00A31971 /* BusquedaTableViewController.swift */,
+				0471204121F01C3400C5E977 /* WelcomeViewController.swift */,
+				0498CE9821EEF386003E6594 /* Receta.swift */,
 				046D8F2221EEB5C30018D1C2 /* AppDelegate.swift */,
-				046D8F2421EEB5C30018D1C2 /* ViewController.swift */,
 				046D8F2621EEB5C30018D1C2 /* Main.storyboard */,
 				046D8F2921EEB5C30018D1C2 /* Assets.xcassets */,
 				046D8F2B21EEB5C30018D1C2 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046D8F2521EEB5C30018D1C2 /* ViewController.swift in Sources */,
 				046D8F2321EEB5C30018D1C2 /* AppDelegate.swift in Sources */,
+				0471204221F01C3400C5E977 /* WelcomeViewController.swift in Sources */,
+				04A2D2E921EFF5AE00A31971 /* BusquedaTableViewController.swift in Sources */,
+				0498CE9921EEF386003E6594 /* Receta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				046D8F3321EEB5C30018D1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

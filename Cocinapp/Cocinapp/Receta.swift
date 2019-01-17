@@ -8,7 +8,7 @@
 
 import Foundation
 
-//Parseo del JSON
+//estructura para el parseo del JSON
 
 struct RecipesInfo {
     var title = ""

@@ -10,6 +10,8 @@ import UIKit
 
 class BusquedaTableViewController: UITableViewController {
     
+    //métodos para el manejo de viewController
+    
     @IBOutlet var myTableView: UITableView!
     
     @IBAction func back(sender: AnyObject) {
@@ -26,6 +28,10 @@ class BusquedaTableViewController: UITableViewController {
     var finalName = ""
     
     var tableViewDataSource = [RecipesInfo]()
+    
+    //------------------------------------------------------------------------------------------------------------
+    
+    //Parseo del JSON en internet
     
     override func viewDidLoad() {
         
@@ -66,7 +72,10 @@ class BusquedaTableViewController: UITableViewController {
         task.resume()
 
     }
-
+    
+    //------------------------------------------------------------------------------------------------------------
+    
+    //sobreescritura de métodos de tableView para mostrar en celdas los elementos extraídos del JSON
     
     override func tableView( tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath ) -> CGFloat {
         
@@ -108,6 +117,10 @@ override
         return myCell
         
     }
+    
+    //------------------------------------------------------------------------------------------------------------
+    
+    //manejo de datos extraídos del JSON
     
     func readJSON(object: [String: AnyObject]) {
         
@@ -191,6 +204,10 @@ override
         }
         
     }
+    
+    //------------------------------------------------------------------------------------------------------------
+    
+    //descarga de las imágenes de cada receta 
     
     func loadImage(url: String, to imageView: UIImageView) {
         
